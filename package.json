@@ -1,0 +1,34 @@
+{
+  "name": "screendump",
+  "version": "0.0.0",
+  "description": "Cross-platform screenshots",
+  "type": "module",
+  "main": "index.js",
+  "author": "Rasmus Porsager <rasmus@porsager.com>",
+  "repository": "porsager/screendump",
+  "license": "WTFPL",
+  "gypfile": true,
+  "scripts": {
+    "test": "echo some day",
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "nan": "2.20.0"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/porsager"
+  },
+  "homepage": "https://github.com/porsager/screendump",
+  "bugs": "https://github.com/porsager/screendump/issues",
+  "keywords": [
+    "screenshot",
+    "capture",
+    "displays",
+    "screendump"
+  ]
+}
