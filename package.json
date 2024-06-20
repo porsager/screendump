@@ -2,7 +2,6 @@
   "name": "screendump",
   "version": "0.0.1",
   "description": "Cross-platform screenshots",
-  "type": "module",
   "main": "index.js",
   "author": "Rasmus Porsager <rasmus@porsager.com>",
   "repository": "porsager/screendump",
