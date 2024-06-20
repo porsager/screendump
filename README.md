@@ -27,3 +27,12 @@ await screendump({
   quality: 75   // The JPG quality
 })
 ```
+
+## Build requirements
+
+Linux build requires `libx11-dev`, `libxinerama-dev` and `libjpeg-turbo8-dev`.
+
+Eg.
+```bash
+sudo apt install libx11-dev libxinerama-devlibjpeg-turbo8-dev
+```
