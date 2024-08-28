@@ -1,6 +1,6 @@
 {
   "name": "screendump",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Cross-platform screenshots",
   "main": "index.js",
   "author": "Rasmus Porsager <rasmus@porsager.com>",
