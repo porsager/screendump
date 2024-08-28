@@ -36,7 +36,6 @@ class CaptureWorker : public Nan::AsyncWorker {
     }
 
     XImage *image = XGetImage(display, RootWindowOfScreen(screen), x, y, width, height, AllPlanes, ZPixmap);
-    std::cout << "Image depth: " << image->depth << " bits_per_pixel: " << image->bits_per_pixel << std::endl;
 
     if (!image) {
       XCloseDisplay(display);
