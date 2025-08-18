@@ -1,5 +1,9 @@
 #include <nan.h>
 #include <windows.h>
+#include <objidl.h>
+#include <algorithm>
+using std::min;
+using std::max;
 #include <gdiplus.h>
 #include <vector>
 #include <shellscalingapi.h>
