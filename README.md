@@ -34,5 +34,5 @@ Linux build requires `libx11-dev`, `libxinerama-dev` and `libjpeg-turbo8-dev`.
 
 Eg.
 ```bash
-sudo apt install libx11-dev libxinerama-devlibjpeg-turbo8-dev
+sudo apt install libx11-dev libxinerama-dev libjpeg-turbo8-dev
 ```
